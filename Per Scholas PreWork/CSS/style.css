@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+  }
+
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+#topofpage{
+    position:sticky;
+    top: 0px;
+}
+
+#div1{
+    background-color:#99ccff;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    padding-top:10px;
+    margin-bottom:0px;
+}
+
+nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:lowercase;
+    text-align: center;
+    padding-bottom:10px;
+    margin-top:0px;
+}
+
+body{
+    margin-left:50px;
+    margin-right:50px;
+    background-color:#dff4ff; 
+    height: 200vh;
+}
+            
+#intro{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#bio{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:inline;
+}
+
+#photo{
+    float:right;
+    margin-top:20px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+#interests{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+table{
+    table-layout: fixed;
+    width:50%;
+    border:1px solid black;
+    border-collapse: collapse;
+    background-color:#99ccff;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+caption{
+    padding-bottom:10px;
+}
+
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.favList{
+    font-weight: bold;
+    color:#C90076;
+}
+     
+#formBox{
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+form{
+    padding:15px;
+    background-color:#99ccff;
+    color:black;
+    font-style:italic;
+    border-style: solid;
+    font-weight: 300px;
+    text-align:center;
+}
+
+input[type=button]{
+    outline: none;
+    margin: 0;
+    background: linear-gradient(#eee, #c0c0c0);
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+    font-weight: bold;
+    width:100px;
+    color: black;
+}
+
+input[type=button]:hover{
+    outline: none;
+    margin: 0;
+    background: linear-gradient(#eee, #c0c0c0);
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+    font-weight: bold;
+    width:100px;
+    color: #C90076;
+}
+
+input[type=text]:focus {
+    background-color:#eef0ef;
+    color:black;
+    transition:2s;
+}
+
+#info{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#video{
+    margin-left:25%;
+    margin-right:25%;
+    position: absolute;
+}
